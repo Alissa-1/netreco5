@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class MaxServiceTest {
     @Test
-    public static void main(String[] args) {
+    public void shouldFindMax() {
         MaxService service = new MaxService();
 
         int a = 5;
